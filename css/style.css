@@ -2,7 +2,20 @@
     margin: 0;
     padding: 0;
 }
+/* scroll bar css */
+::-webkit-scrollbar{
+    width:10px;
+}
 
+::-webkit-scrollbar-track{
+    background-color:rgba(255,255,255,0.5);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:red;
+    border-radius:5px;
+}
+/* end of scroll bar */
 .container{
     max-width: 80vw;
 }
