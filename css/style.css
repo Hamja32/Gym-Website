@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family: sans-serif;
+}
+
+.navbar ul{
+    height: 60px;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+
+}
+
+.navbar li a{
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 1.4rem;
+    font-family: cursive;
+}
+
+.section1{
+ max-height: 100vh;
+}
+
+.section2{
+   padding: 80px;
+}
+
+.section2 h1{
+    font-size: 2.5rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    margin: 12px 22px;
+    padding: 8px 0;
+    border-radius: 4px;
+    min-width: 20vw;
+    border: 1px solid darkslategray;
+    text-align: center;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+.box ul li a{
+    text-decoration: none;
+}
+
+.box h2{
+    font-size: 1.8rem;
+    padding: 15px 0;
+}
+
+.section3{
+    padding: 73px;
+}
+
+.section3 h1{
+    font-size: 2.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section3 .table{
+    width: 100%;
+    margin-bottom:140px;
+    border-collapse: collapse;
+}
+
+.section3 .table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.section3 .table td{
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 11px 0;
+}
+
+/* media query */
+
+@media (max-width:600px) {
+    
+    .top-right{
+        /* flex-direction: column; */
+        width: 45%;
+        padding: 22px 0;
+    }
+
+    #cote{
+        font-size: 1.2rem;
+    }
+
+    .mq-m{
+        /* flex-direction: row; */
+        min-width: 10vw;
+    }
+
+    .navbar ul,li,a{
+        display: none;
+    }
+
+    .logo{
+        font-size: 1.8rem;
+        font-family: cursive;
+    }
+   .top-right .hero-img{
+        width: 170px;
+        height: 180px;
+        /* float: right; */
+    }
+
+    .sfcolor{
+        display: none;
+    }
+    .section2{
+        padding: 6px;
+     }
+
+     .section3{
+        padding: 6px;
+        /* margin: 6px; */
+     }
+
+    .section2 h1{
+        font-size: 2rem;
+    }
+
+    .boxes{
+        /* display: flex; */
+        flex-wrap: nowrap;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .box{
+        /* width: 50vw; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: azure;
+        height: 500px;
+    }
+    
+ 
+
+}

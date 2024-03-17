@@ -1,0 +1,128 @@
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto; 
+}
+.fs-small{
+    font-size: 20px;
+}
+
+.min-h-screen{
+    min-height: 100vh;
+}
+.bg-red{
+    background-color: red;
+}
+.color-red{
+    color: red;
+}
+
+.color-blue{
+ color: blueviolet;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.sans{
+    font-family: sans-serif;
+}
+
+.title-font{
+    font-family:Gill Sans MT;
+}
+
+.sfcolor{
+    color: #6e676e;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.top-left{
+    width: 50%;
+    padding: 12px 0;
+}
+.top-right{
+    width: 50%;
+    padding: 12px 0;
+}
+
+.my-1{
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+.py-2{
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.my-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-blue{
+    color: blueviolet;
+}
+
+.btn{
+    padding: 4px 12px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.hero-img{
+    width: 480px;
+    height: 500px;
+    float: right;
+}
+
+.full-size{
+    font-size: 2.5rem;
+}
+.highlishted{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
